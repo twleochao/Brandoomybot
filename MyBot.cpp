@@ -7,7 +7,7 @@ std::string boyNames[10] = {"brandon", "brandoom", "brandomer", "brandoomer", "a
 std::string girlNames[10] = { "Olivia", "Emma", "Charlotte", "Amelia", "Ava", "Sophia", "Isabella", "Mia", "Evelyn", "Harper" };
 int main()
 {
-    dpp::cluster bot("MTA4NTA0MTQ1NTM3MTkyMzU0OQ.GK288F.-WOv3ODfRNMx5kuX2iCvInH32DUr4ZII-8P13c");
+    //dpp::cluster bot("token here");
     bot.on_log(dpp::utility::cout_logger());
 
     
